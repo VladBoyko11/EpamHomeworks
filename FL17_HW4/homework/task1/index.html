@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <title>AJAX</title>
+      <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+      <style>
+        body{
+          color: rgb(0, 0, 0);
+          background-color: rgb(138, 138, 138);
+        }
+        input{
+          color: rgb(0, 0, 0);
+          background-color: beige;
+          outline: none;
+          border: none;
+          width: auto;
+          padding: 3px;
+          margin: 3px;
+        }
+        form{
+          border: 2px solid rgb(238, 255, 0);
+          margin: 10px;
+          margin-bottom: 40px;
+          padding: 3px;
+        }
+        button{
+          background-color: lightsalmon;
+          margin: 5px;
+          outline: none;
+          border: 2px solid red;
+          cursor: pointer;
+        }
+        .img-spinner{
+          display: none;
+          position: absolute;
+          top: 43vh;
+          left: 47vw;
+          width: 100px;
+          height: auto;
+          animation: spinner 2s infinite alternate;
+        }
+        @keyframes spinner{
+          0%{
+            transform: rotate(0deg);
+          }
+          100%{
+            transform: rotate(360deg);
+          }
+        }
+      </style>
+  </head>
+
+  <body>
+    <img src="https://freesvg.org/img/1637591382snowflake-low-poly-silhouette.png" alt="spinner" class="img-spinner">
+    <script src="js/index.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+#chat{
+    width: 99.7vw;
+    height: 85vh;
+    border: 1px solid black;
+    padding: 10px;
+    word-wrap:break-word;
+    box-sizing:content-box;
+    overflow-y: scroll;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.crTxMsg{
+    margin-left: 80vw;
+}
+#btn-send{
+    width: 120px;
+    height: 60px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: darkturquoise;
+    border-radius: 30px;
+}
+#message{
+    height: 50px;
+    width: 900px;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.messageEl{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: auto;
+    margin-top: 30px;
+}
+.messageTime{
+    float: left;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+.messageTime2{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    color: black;
+}
+.messageEl2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    width: auto;
+    margin-top: 30px;
+}
+.messageUser{
+    padding: 2px;
+    margin: 0px;
+    color: rgb(0, 158, 158);
+    font-size: 12px;
+}
+.messageContent{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+}

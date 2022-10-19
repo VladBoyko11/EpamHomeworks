@@ -1,0 +1,41 @@
+/* body{
+    font-family: 'roboto';
+} */
+.nav-link , .active{
+    color: black;
+}
+.nav-link:hover,.active:hover{
+    color: black;
+    font-size: 1.1rem;
+}
+.header-about-first-p{
+font-size: 2.6rem;
+font-weight: 500;
+}
+.header-about-second-p{
+    font-size: 1.2rem;
+    color: #525252;
+}
+.main-upper-text{
+    color: white;
+}
+.main-conteiner{
+    color: white;
+}
+.main-card-title{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.main-card-under-title{
+    color: black;
+}
+.main-card-under-text{
+    color: black;
+}
+.footer-text{
+    color: white;
+}
+.copy{
+    color: white;
+    font-size: 1.1rem;
+}

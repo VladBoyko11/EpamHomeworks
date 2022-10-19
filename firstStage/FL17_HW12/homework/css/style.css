@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+#header{
+    background-image: url(../img/apples.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100vw;
+    height: 120vh;
+    font-size: 16px;
+}
+.logo-header-small{
+    font-size: 1.2em;
+    color: #FFF;
+    text-align: center;
+    align-self: center;
+    padding-left: 4vw;
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-header-small p {
+    letter-spacing: 0.2rem;
+}
+.header-wrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vh;
+}
+.nav-header {
+    margin-right: 5rem;
+    width: 27vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+    color: #FFF;
+    align-items: center;
+}
+a:visited{
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+}
+.nav-item{
+    text-decoration: none;
+    color: white;
+    /* color: #B7C8D9;
+    color: #FFF;
+    color: #F3F3F3;
+    color: #A4A4A4;
+    color: #F0F0F0;
+    color: #000;
+    color: #343638;
+    color: #E8E8E8;
+    color: #9E9E9E; */
+}
+.logo-header-big{
+    font-size: 3.5em;
+    color: #FFF;
+    text-align: center;
+    padding-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    height: 12rem;
+    margin-top: 25vh;
+}
+.logo-text{
+    letter-spacing: 0.8rem;
+    margin: 0;
+}
+.logo-text-under{
+    margin: 0;
+    font-size: 0.3em;
+}
+.logo-header-big span {
+    font-size: 2em;
+}
+.btn-show-more{
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    color: #FFF;
+    border: 3.5px solid #FFF;
+    background-color: rgba(29, 29, 29, 0.5);
+    width: 18vw;
+    height: 8vh;
+    display: block;
+    margin: 28vh auto;
+}
+#main{
+    font-size: 16px;
+    width: 100vw;
+    height: 340vh;
+    background-color: rgb(243,243,243);
+}
+.text-main{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 55vh;
+    background-color: white;
+}
+.main-text1{
+    padding-left: 4vw;
+    padding-top: 22vh;
+    font-size: 1.7em;
+    width: 45vw;
+}
+.main-text2{
+    padding-left: 7vw;
+    padding-right: 5vw;
+    padding-top: 22vh;
+    font-size: 1em;
+    width: 50vw;
+}
+.content-heading{
+    font-size: 1.8rem;
+    text-align: center;
+    margin-top: 22vh;
+}
+.content-items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15vh;
+}
+.content-img{
+    width: 60vw;
+    height: auto;
+    opacity: 0.8;
+}
+.content-img-items{
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    height: auto;
+    width: 60vw;
+}
+.date{
+    position: absolute;
+    bottom: 1.5vh;
+    left: 1.5vw;
+    color: white;
+
+}
+.like{
+    position: absolute;
+    top: 3vh;
+    right: 1.5vw;
+    width: 4rem;
+    height: 2rem;
+    border: 2.5px solid white;
+    background-color: rgba(29, 29, 29, 0.5);
+    color: white;
+    font-weight: 800;
+}
+.content-item{
+    display: flex;
+    align-items: center;
+    width: 92vw;
+    margin: 0.5rem;
+}
+.content-text{
+    font-size: 1.1rem;
+    padding: 1.5em;
+    text-align: center;
+}
+.subscribe-form{
+    margin: 4rem auto;
+    width: 92vw;
+    height: 25vh;
+    background-color: white;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.subscribe-form p {
+    font-size: 1.8rem;
+    margin: 2rem;
+}
+.input-text {
+    height: 60px;
+    width: 52vw;
+    padding-left: 1.5rem;
+    border: 2px solid rgb(52,54,56);
+    font-size: 1.1rem;
+    color: rgb(52,54,56);
+}
+.submit-btn {
+    height: 66px;
+    width: 8vw;
+    border: rgb(52,54,57);
+    background-color: rgb(52,54,56);
+    color: white;
+    font-size: 1.1rem;
+}
+#footer{
+    height: auto;
+    width: 100vw;
+}
+.content-footer{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.content-footer-item{
+    width: 22vw;
+    padding: 1rem;
+}
+.content-footer-heading{
+    font-size: 1.1rem;
+    color: black;
+    font-weight: 900;
+}
+.content-footer-text{
+    color: #A4A4A4;
+}
+.content-footer-text-time{
+    color: rgb(233,232,235);
+}
+.input-footer-text{
+    height: 30px;
+    width: 13vw;
+    padding-left: 0.5em;
+    border: 2px solid rgb(52,54,56);
+    font-size: 1rem;
+    color: rgb(52,54,56);
+    float: left;
+}
+.submit-btn-footer {
+    height: 36px;
+    width: 6vw;
+    border: 1px solid rgb(52,54,57);
+    background-color: rgb(52,54,56);
+    color: white;
+    font-size: 1.1rem;
+    float: left;
+}
+hr {
+    display: block;
+    width: 92vw;
+    margin: 0 auto;
+}
+.nav-footer-items{
+    display: flex;
+    justify-content: space-between;
+    width: 92vw;
+    margin: 0 auto;
+}
+.nav-footer {
+    width: 19vw;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    color: #FFF;
+    align-items: center;
+}
+.nav-footer a:visited{
+    color: #FFF;
+}
+.nav-item-footer{
+    text-decoration: none;
+    color: black;
+}

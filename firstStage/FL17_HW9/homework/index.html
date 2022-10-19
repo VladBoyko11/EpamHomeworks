@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Homework 9 - JS DOM Events</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="task1">
+      <table>
+        <tr>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+        </tr>
+        <tr>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="specialCell">Special cell</td>
+        </tr>
+        <tr>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+          <td class="cell">Cell</td>
+        </tr>
+      </table>
+    </div>
+
+    <div id="task2">
+      <form action="./index.js">
+        <div id="incorrect" class="divText">Type number does not follow format +380*********</div>
+        <div id="correct" class="divText" style="display: none">Data was successfully sent</div>
+        <div class="inputs">
+          <input id="textArea" type="text" placeholder="Type phone number in format +380*********">
+          <input id="submitBtn" type="submit" value="Send">
+        </div>
+      </form>
+    </div>
+
+    <div id="task3">
+      <div id="courtImg">
+        <img id="court" alt="court" src="./assets/court.png">
+        <img id="ball" alt="ball" src="./assets/ball.png">
+      </div>
+      <div id="scoreboard">
+        <span id="teamA">Team A: </span>
+        <span id="teamB">Team B: </span>
+      </div>
+      <div id="notificationAboutGoal"></div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

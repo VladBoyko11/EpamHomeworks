@@ -1,0 +1,73 @@
+@import url(./buttons.scss);
+$marginBtn: 0px 5px 0px 5px;
+$colorText: midnightblue;
+body{
+    background-color: rgb(217, 254, 255);
+    font-size: 16px;
+}
+@mixin div-header(){
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.6rem;
+    color: $colorText;
+}
+.hidden{
+    display: none;
+}
+#tweetItems{
+    text-align: center;
+}
+#modifyItem{
+    text-align: center;
+}
+#alertMessage{
+    background-color: rgb(199, 199, 199);
+    padding: 20px;
+    color: white;
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+}
+#modifyItemInput{
+    height: 70px;
+}
+ul{
+    list-style-type: none;
+    text-align: left;
+    width: 300px;
+    margin: 0 auto;
+    width: 70vw;
+    background-color: rgb(242, 255, 255);
+}
+.tweetItems-header{
+    @include div-header()
+}
+#modifyItemHeader{
+    @include div-header()
+}
+#modifyItemInput{
+    width: 50vw;
+    height: 30vh;
+    outline: none;
+    border: 2px solid rgb(106, 0, 182);
+    color: $colorText;
+    font-size: 1.6rem;
+    padding: 10px 0 0 15px;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 5px;
+    font-size: 1.4rem;
+    height: 8vh;
+}
+li > span {
+    color: $colorText;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: inline-block;
+    width: 65%;
+    cursor: pointer;
+} 

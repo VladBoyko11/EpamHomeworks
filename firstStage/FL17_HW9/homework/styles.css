@@ -1,0 +1,119 @@
+/* START: Task 1 Styles */
+td {
+    background-color: white;
+    width: 33%;
+}
+td:hover{
+    cursor: pointer;
+}
+table{
+    margin-top: 30px;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    border-collapse: collapse;
+}
+th {
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+}
+#task1{
+    display: flex;
+    justify-content: center;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+form {
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.divText {
+    margin-top: 140px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+#incorrect{
+    height: 50px;
+    width: 400px;
+    padding: 15px;
+    color: white;
+    border: 1px solid green;
+    font-size: 20px;
+    background-color: red;
+}
+#correct{
+    height: 50px;
+    width: 400px;
+    padding: 15px;
+    color: white;
+    border: 1px solid green;
+    font-size: 20px;
+    background-color: green;
+}
+.inputs{
+    margin-top: 15px;
+    width: 400px;
+    height: 40px;
+}
+#textArea{
+    background-color: white;
+    padding: 10px;
+    width: 80%;
+    border: 1px solid black;
+}
+#submitBtn{
+    height: 100%;
+}
+/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+#task3{
+    margin-top: 100px;
+    text-align: center;
+}
+#courtImg{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 600px;
+    position: relative;
+}
+#court{
+    width: 600px; 
+    height: 330px;
+}
+#ball{
+    width: 40px; 
+    height: 40px;
+    position: absolute;
+    top: 145px;
+}
+#scoreboard{
+    margin: 0 auto;
+    text-align: center;
+    width: 590px;
+    display: flex;
+    justify-content: space-between;
+}
+#notificationAboutGoal{
+    margin-top: 30px;
+    color: blue;
+    font-size: 25px;
+    height: 50px;
+}
+/* END: Task 3 Styles */

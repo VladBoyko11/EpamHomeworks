@@ -1,0 +1,129 @@
+@media print {
+  body {
+    font-family: "Times New Roman", Times, serif;
+    width: 550px;
+    height: auto;
+  }
+  .tm-content-box {
+    margin-bottom: 0px;
+  }
+  .padding-medium + div img {
+    width: 200px;
+    height: auto;
+  }
+  .tm-team-description-container {
+    width: 370px;
+  }
+  .tm-sidebar,
+  .tm-main-content section,
+  #home + section > #about {
+    display: none;
+  }
+  #home + section {
+    display: block;
+  }
+  section::before {
+    display: none;
+  }
+  .text-xs-center {
+    color: #666;
+  }
+  .tm-banner {
+    padding: 0px;
+    border: 2px solid gray;
+  }
+  .padding-medium::first-line {
+    color: blue;
+  }
+}
+/* .container   */
+.tm-content-header {
+  background-color: gray;
+}
+.tm-banner {
+  background-color: white;
+}
+.box-bg:hover {
+  background-color: #87cefa;
+}
+.box-bg:hover h2 {
+  color: white;
+}
+p::first-letter {
+  text-transform: uppercase;
+  color: #87cefa;
+  font-size: 30px;
+}
+.tm-sidebar,
+.tm-content-box {
+  box-shadow: 0px 0px 10px;
+}
+.tm-banner-inner {
+  border: 1px solid grey;
+}
+.tm-section-description:nth-of-type(1) {
+  font-style: italic;
+}
+
+h2:nth-of-type(1) {
+  font-style: italic;
+}
+.container .padding-medium ol li a {
+  color: black;
+}
+.container .padding-medium ol > li > a:visited {
+  text-decoration: underline;
+}
+.container .padding-medium ol li a:hover {
+  text-decoration: blue underline;
+  text-decoration-style: double;
+}
+.text::after {
+  content: "NEW";
+  font-size: x-small;
+  vertical-align: super;
+  color: red;
+}
+section::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 100px 0 0;
+  border-color: #87cefa transparent transparent transparent;
+}
+.tm-main-nav > ul > li:hover {
+  background-color: grey;
+}
+.form-group:nth-child(2)::after {
+  content: "*";
+  color: red;
+  font-weight: bold;
+}
+.submit-btn:hover {
+  background-color: #87cefa;
+  color: grey;
+}
+.carousel-content h2.tm-section-title {
+  color: gainsboro;
+  letter-spacing: 5px;
+}
+.tm-section-description {
+  text-indent: 25px;
+}
+.tm-banner-inner {
+  outline: solid 30px whitesmoke;
+  box-shadow: 30px 0 0 black;
+}
+.flex-2-col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.box-work {
+  padding: 10px;
+}
+.box-work:nth-child(even) {
+  background-color: rgb(238, 238, 238);
+}
