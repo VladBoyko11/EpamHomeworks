@@ -1,6 +1,7 @@
 import {renderTweetsOnPage, alertMessageOnPage, keyEdit} from './renderTweets.js'
 import {cancelButton} from './cancelBtn.js'
 import {addTweet} from './addTweetBtn.js'
+import '../scss/style.scss'
 
 const root = document.getElementById('root');
 let url = new URL('http://127.0.0.1:5500/Practice/fl-17/FL17_HW10/homework/src#');

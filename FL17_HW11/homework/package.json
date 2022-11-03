@@ -7,7 +7,7 @@
     "test:jasmine": "node jasmine.js",
     "test:karma": "npx karma start karma.conf.js"
   },
-  "author": "AKlymovskyi",
+  "author": "Vlad Boyko",
   "license": "ISC",
   "dependencies": {
     "jasmine": "^3.5.0"
